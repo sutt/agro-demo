@@ -1,0 +1,2 @@
+- leave a comment over every route you add explaining its purpose
+- prepend all comments with the prefix XXX, e.g. "# XXX: this is logic for date mocking"

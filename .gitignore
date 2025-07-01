@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+# Agro project directory
+.agdocs/
+trees/
+
+# aider specific
+.aider*
