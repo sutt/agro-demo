@@ -1,0 +1,1 @@
+add a uvicorn serve in the __main__ section of main so the app can be started with python app/main.py
