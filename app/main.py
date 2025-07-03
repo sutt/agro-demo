@@ -1,4 +1,10 @@
+import os
+from dotenv import load_dotenv
 from fastapi import FastAPI
+
+
+load_dotenv()
+
 
 app = FastAPI()
 
@@ -18,4 +24,4 @@ def read_item(item_id: int, q: str | None = None):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("API_PORT", 8000)))
