@@ -8,4 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# project specific
+# .agdocs - tracking these for demo purposes
+# .env - tracking this for demo purposes
+# ignoring for now, future agro should auth add this
+trees/
+# ignoring for now, future agro should auth add this
 .aider*
