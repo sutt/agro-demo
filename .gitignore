@@ -16,3 +16,5 @@ wheels/
 trees/
 # ignoring for now, future agro should auth add this
 .aider*
+# Agro project directory
+.agdocs/
